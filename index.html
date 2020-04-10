@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+
+console.log("hello");
+
+localStorage.setItem('name','mayank');
+console.log(localStorage.getItem('name'));
+        localStorage.removeItem('name')
+
+sessionStorage.setItem('name','golu');
+sessionStorage.setItem('names','golus');
+
+
+console.log(sessionStorage.getItem('name'));
+
+document.cookie ='username=john doe; expires='+new Date(2020,8,8).toUTCString()
+
+console.log(document.cookie)
+
+    </script>
+<h1>hello mayank</h1>
+</body>
+</html>
